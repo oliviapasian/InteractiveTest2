@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgb(243, 249, 231);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin: 32px;
+}
+
+a {
+	text-decoration: none; /* Remove default underline styling */
+}
+
+h1 {
+	color:  goldenrod;
+	font-size: 3vw; /* Relative unit vw (viewport width). 1vw = 1% of viewport's width */
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 32px;
+}
+
+img {
+	width: 100%;  /* Inherits the width of the parent container. In this case, it's .painting-item */
+}
+
+.paintings {
+	display: grid; /* Create a grid */
+	grid-template-columns: repeat(3,1fr); /* Create a 3 column grid structure */
+	grid-gap: 24px; /* Create seperation between cards */
+}
+
+.painting-item {
+	background-color: rgb(243, 222, 103);
+}
+
+.painting-item a {
+	color: goldenrod;
+}
+
+.painting-item h2 {
+	margin-bottom: 24px;
+}
+
+.painting-item .painting-content {
+	padding: 22px;
+}

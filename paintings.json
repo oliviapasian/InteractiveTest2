@@ -1,0 +1,46 @@
+{
+   "paintings":[
+      {
+         "credit" : "Claude Monet",
+         "description" : "In 1893, Monet, a passionate horticulturist, purchased land with a pond near his property in Giverny, intending to build something 'for the pleasure of the eye and also for motifs to paint.' The result was his water-lily garden. In 1899, he began a series of eighteen views of the wooden footbridge over the pond, completing twelve paintings, including the present one, that summer. The vertical format of the picture, unusual in this series, gives prominence to the water lilies and their reflections on the pond.         ",
+         "link" : "https://www.metmuseum.org/art/collection/search/437127?deptids=11&amp;when=A.D.+1800-1900&amp;ao=on&amp;ft=impressionism&amp;offset=40&amp;rpp=40&amp;pos=50",
+         "photo" : "bridge water lilies 1899.png",
+         "name" : "Bridge over a Pond of Water Lilies 1899"
+      },
+      {
+         "credit" : "Claude Monet",
+         "description" : "Between 1890 and 1891 Monet devoted some thirty paintings to the haystacks in a field near his house at Giverny. In the midst of this effort, he wrote to the critic Gustave Geoffroy: 'I am working very hard, struggling with a series of different effects (haystacks), but at this season the sun sets so fast I cannot follow it. . . .　 The more I continue, the more I see that a great deal of work is necessary in order to succeed in rendering what I seek.' Haystacks was the first group of paintings that Monet exhibited as a series; in 1891, fifteen were shown at the Galerie Durand-Ruel in Paris.         ",
+         "link" : "https://www.metmuseum.org/art/collection/search/437122?deptids=11&amp;when=A.D.+1800-1900&amp;ao=on&amp;ft=impressionism&amp;offset=40&amp;rpp=40&amp;pos=52",
+         "photo" : "Haystacks 1891.png",
+         "name" : "Haystacks (Effect of Snow and Sun) 1891"
+      },
+      {
+         "credit" : "Auguste Renoir",
+         "description" : "This picture, which is in effect drawn directly with paint, was almost certainly executed out-of-doors about 1870. The site is in the village of Louveciennes, west of Paris, where Camille Pissarro lived and worked in 1869-70 and was inspired to paint the same motif, but from a different vantage point (National Gallery, London). At the time, Renoir was staying nearby with his parents, who had retired to Voisins.         ",
+         "link" : "https://www.metmuseum.org/art/collection/search/437436?deptids=11&amp;when=A.D.+1800-1900&amp;ao=on&amp;ft=impressionism&amp;offset=40&amp;rpp=40&amp;pos=45",
+         "photo" : "a road 1870.png",
+         "name" : "A Road in Louveciennes 1870"
+      },
+      {
+         "credit" : "Alfred Sisley",
+         "description" : "To paint this panoramic scene, Sisley walked up the hill from his rented house in Marly-le-Roi, near Paris, and selected a northwest view overlooking the town. The building at left was located within the border of neighboring Louveciennes. The lush, manicured grounds to the right of the path belonged to the more extensive property in Marly-le-Roi owned by Robert Le Lubez, an amateur singer and patron of contemporary composers such as Charles-François Gounod and Camille Saint-Saëns.         ",
+         "link" : "https://www.metmuseum.org/art/collection/search/437310?deptids=11&amp;when=A.D.+1800-1900&amp;ao=on&amp;ft=impressionism&amp;offset=40&amp;rpp=40&amp;pos=70",
+         "photo" : "boulevard 1897.jpeg",
+         "name" : "View of Marly-le-Roi from Coeur-Volant 1897"
+      },
+      {
+         "credit" : "Paul Cézanne",
+         "description" : "Cézanne enthused about the fishing village of L’Estaque to Pissarro in 1876: 'It is like a playing card. Red roofs over the blue sea. . . . The sun is so terrific here that it seems to me as if the objects were silhouetted not only in black and white, but in blue, red, brown, and violet.' Cézanne painted some twenty views of L'Estaque over the next decade, a dozen of them facing toward or across the gulf of Marseilles. In the distance of this painting, atop the hill to the right of the jetty, the towers of Notre-Dame-de-la-Garde stand watch over the city of Marseilles.         ",
+         "link" : "https://www.metmuseum.org/art/collection/search/437682?deptids=11&amp;when=A.D.+1800-1900&amp;ao=on&amp;ft=impressionism&amp;offset=40&amp;rpp=40&amp;pos=54",
+         "photo" : "view 1876.jpeg",
+         "name" : "The Gulf of Marseilles Seen from L'Estaque 1885"
+      },
+      {
+         "credit" : "Camille Pissarro",
+         "description" : "After spending six years in rural Éragny, Pissarro returned to Paris, where he painted several series of the grands boulevards. Surveying the view from his lodgings at the Grand Hôtel de Russie in early 1897, Pissarro marveled that he could 'see down the whole length of the boulevards' with 'almost a bird's-eye view of carriages, omnibuses, people, between big trees, big houses that have to be set straight.' From February through April, he recorded—in two scenes of the boulevard des Italiens to the right, and fourteen of the boulevard Montmartre to the left—the spectacle of urban life as it unfolded below his window.         ",
+         "link" : "https://www.metmuseum.org/art/collection/search/435872?deptids=11&amp;when=A.D.+1800-1900&amp;ao=on&amp;ft=impressionism&amp;offset=40&amp;rpp=40&amp;pos=67",
+         "photo" : "gulf 1885.jpeg",
+         "name" : "The Boulevard Montmartre on a Winter Morning 1885"
+      }
+   ]
+}

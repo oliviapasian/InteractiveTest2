@@ -1,0 +1,66 @@
+<!-- 
+
+Moved our data into a file type called JSON (JavaScript Object Notation) and loading it 
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Interactive Test 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Test 2: Image JSON</h1>
+	<div class="paintings">
+
+		<!-- Empty here but when you load the HTML file in the browser, content shows. Checkout the code between the <script> at the end of the page to see how content gets added. -->
+
+	</div>
+</body>
+
+<!-- Load jQuery --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+	/* 
+	To load JSON file, whether it's locally stored on your computer or on the web, you need to have a server. You can run a local server using MAMP or Terminal. 
+	
+	Using Terminal, change your directory to where your index.html file is. To do this, type the command cd and drag your folder to Terminal. Hit return.
+
+	Then copy and paste this command: python3 -m http.server and then go to http://localhost:8000/ in your browser. Your file will now load.
+	*/
+
+	// First pass the json file name into Fetch.
+	fetch('paintings.json') 
+		// See if there's a response. If all good move to the next step.
+	    .then(function(response) {
+	      return response.json();
+	    })
+	    // Get the data from the JSON file.
+	    .then(function(data) {
+			for (let i = 0; i < data.paintings.length; i++) {
+				$(".paintings").append(
+					'<div class="painting-item">'+
+						'<a href="'+ data.paintings[i].link +'" target=_blank>'+
+						'<img src="images/'+ data.paintings[i].photo +'">'+
+						'<div class="painting-content">'+
+							'<h2>'+ data.paintings[i].name +'</h2>'+
+							'<h3>'+ data.paintings[i].credit +'</h3>'+
+							'<p>'+ data.paintings[i].description +'</p>'+
+						'</div>'+
+						'</a>'+
+					'</div>'
+				)
+			}
+	    })
+	    // At any point if there's an error in the chain of events, then it immediately goes to an error state.
+	    .catch(function(error) {
+	      $('h1').html('Error!')
+	      console.log(error);
+	    })
+	    
+
+</script>
+
+</html>
